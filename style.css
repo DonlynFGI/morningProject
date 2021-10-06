@@ -1,0 +1,60 @@
+.mainblock{
+  background-color: black;
+  width: 250px;
+  height: 450px;
+}
+
+.lightone{
+  background-color: red;
+}
+
+.lighttwo{
+  background-color: yellow;
+}
+
+.lightthree{
+  background-color: green;
+}
+
+.justifier{
+  display: flex;
+  justify-content: center;
+  margin:0 auto
+}
+
+.flexi{
+  display:grid;
+  justify-content: center;
+}
+
+.pole{
+  background-color: black;
+  width:100px ;
+  height:200px;
+  margin: 0 auto
+}
+
+.mx-auto{
+  margin:0 auto
+}
+
+.light{
+  border-radius: 100px;
+  width: 125px;
+  height: 125px;
+  shape-outside: circle();
+  background-image: url(https://webstockreview.net/images/dot-clipart-raster-4.png);
+  background-size: cover;
+}
+
+.lightone:hover{
+box-shadow: 0px 0px 60px rgb(243, 114, 135);
+}
+
+.lighttwo:hover{
+  box-shadow: 0px 0px 60px rgb(255, 208, 54);
+}
+
+.lightthree:hover{
+  box-shadow: 0px 0px 60px rgb(67, 243, 61);
+}
